@@ -108,13 +108,14 @@ body {
    align-items: center;
    justify-content: center;
    background: rgba(0, 0, 0, .8);
-   overflow: auto;
 }
 
 .products-preview .preview {
    display: none;
    padding-top: 3rem;
-   height: 100%;
+   padding-bottom: 1rem;
+   /* min-height: 50rem; */
+   height: 57rem;
    text-align: left;
    background: #fff;
    position: relative;
@@ -122,6 +123,7 @@ body {
    justify-content: space-around;
    max-width: 90%;
    box-shadow: 2px 2px 15px 5px rgb(78, 78, 78);
+   overflow: auto;
 }
 
 .products-preview .preview .fa-times {
